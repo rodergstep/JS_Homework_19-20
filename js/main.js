@@ -10,7 +10,8 @@
         autoplay: true,
         autoplayTimeout: 5000
     });
-
+    /*calling of lightbox plugin */
+    $('a[data-rel^=lightcase]').lightcase();
     // Accordion settings;
     var allPanels = $('.news__accordion > .news__accordion__text').hide();
     var orange = $('.accordion__title > a');
